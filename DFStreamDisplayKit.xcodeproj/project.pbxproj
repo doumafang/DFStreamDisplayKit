@@ -7,15 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		946FD8A01CEE2F86006FC3DF /* GPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 946FD8981CEE2F86006FC3DF /* GPUImageBeautifyFilter.m */; };
+		946FD8A11CEE2F86006FC3DF /* DFCameraUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 946FD89A1CEE2F86006FC3DF /* DFCameraUtil.m */; };
+		946FD8A21CEE2F86006FC3DF /* DFRawDataOutput.mm in Sources */ = {isa = PBXBuildFile; fileRef = 946FD89C1CEE2F86006FC3DF /* DFRawDataOutput.mm */; };
+		946FD8A31CEE2F86006FC3DF /* DFResolutionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 946FD89E1CEE2F86006FC3DF /* DFResolutionUtil.m */; };
+		94A03C981CEE0A6B00A80B0D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A03C971CEE0A6A00A80B0D /* CoreGraphics.framework */; };
 		94CCC9111CEDDFDD006EDDE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CCC9101CEDDFDD006EDDE5 /* main.m */; };
 		94CCC9141CEDDFDD006EDDE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CCC9131CEDDFDD006EDDE5 /* AppDelegate.m */; };
 		94CCC9171CEDDFDD006EDDE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CCC9161CEDDFDD006EDDE5 /* ViewController.m */; };
 		94CCC91A1CEDDFDD006EDDE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94CCC9181CEDDFDD006EDDE5 /* Main.storyboard */; };
 		94CCC91C1CEDDFDD006EDDE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94CCC91B1CEDDFDD006EDDE5 /* Assets.xcassets */; };
 		94CCC91F1CEDDFDD006EDDE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94CCC91D1CEDDFDD006EDDE5 /* LaunchScreen.storyboard */; };
+		94EAE3BC1CEE56CD00BB7732 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94EAE3BB1CEE56CD00BB7732 /* UIKit.framework */; };
+		94EAE3BE1CEE56D700BB7732 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94EAE3BD1CEE56D700BB7732 /* Foundation.framework */; };
+		FED07F8DDD639F7A2AB5E58B /* libPods-DFStreamDisplayKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D056D87625989C72C24064C5 /* libPods-DFStreamDisplayKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		946FD8971CEE2F86006FC3DF /* GPUImageBeautifyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageBeautifyFilter.h; sourceTree = "<group>"; };
+		946FD8981CEE2F86006FC3DF /* GPUImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageBeautifyFilter.m; sourceTree = "<group>"; };
+		946FD8991CEE2F86006FC3DF /* DFCameraUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFCameraUtil.h; sourceTree = "<group>"; };
+		946FD89A1CEE2F86006FC3DF /* DFCameraUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFCameraUtil.m; sourceTree = "<group>"; };
+		946FD89B1CEE2F86006FC3DF /* DFRawDataOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFRawDataOutput.h; sourceTree = "<group>"; };
+		946FD89C1CEE2F86006FC3DF /* DFRawDataOutput.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DFRawDataOutput.mm; sourceTree = "<group>"; };
+		946FD89D1CEE2F86006FC3DF /* DFResolutionUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFResolutionUtil.h; sourceTree = "<group>"; };
+		946FD89E1CEE2F86006FC3DF /* DFResolutionUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFResolutionUtil.m; sourceTree = "<group>"; };
+		946FD89F1CEE2F86006FC3DF /* DFStreamUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFStreamUploader.h; sourceTree = "<group>"; };
+		94A03C971CEE0A6A00A80B0D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		94A03C9E1CEE0A7100A80B0D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		94A03CA01CEE0A7C00A80B0D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		94A03CA21CEE0A8400A80B0D /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		94A03CA41CEE0A8B00A80B0D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		94A03CA61CEE0A9300A80B0D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		94A03CAA1CEE0AB600A80B0D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		94A03CAC1CEE0AC000A80B0D /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		94CCC90C1CEDDFDD006EDDE5 /* DFStreamDisplayKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DFStreamDisplayKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94CCC9101CEDDFDD006EDDE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		94CCC9121CEDDFDD006EDDE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +51,11 @@
 		94CCC91B1CEDDFDD006EDDE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94CCC91E1CEDDFDD006EDDE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94CCC9201CEDDFDD006EDDE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94EAE3BB1CEE56CD00BB7732 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		94EAE3BD1CEE56D700BB7732 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B985C4DA5E103B45A13CA66 /* Pods-DFStreamDisplayKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFStreamDisplayKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-DFStreamDisplayKit/Pods-DFStreamDisplayKit.release.xcconfig"; sourceTree = "<group>"; };
+		9F0BD6A593505CB8B1091205 /* Pods-DFStreamDisplayKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFStreamDisplayKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DFStreamDisplayKit/Pods-DFStreamDisplayKit.debug.xcconfig"; sourceTree = "<group>"; };
+		D056D87625989C72C24064C5 /* libPods-DFStreamDisplayKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DFStreamDisplayKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +63,65 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94EAE3BE1CEE56D700BB7732 /* Foundation.framework in Frameworks */,
+				94EAE3BC1CEE56CD00BB7732 /* UIKit.framework in Frameworks */,
+				94A03C981CEE0A6B00A80B0D /* CoreGraphics.framework in Frameworks */,
+				FED07F8DDD639F7A2AB5E58B /* libPods-DFStreamDisplayKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		946FD8951CEE2F86006FC3DF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				946FD8961CEE2F86006FC3DF /* filter */,
+				946FD8991CEE2F86006FC3DF /* DFCameraUtil.h */,
+				946FD89A1CEE2F86006FC3DF /* DFCameraUtil.m */,
+				946FD89B1CEE2F86006FC3DF /* DFRawDataOutput.h */,
+				946FD89C1CEE2F86006FC3DF /* DFRawDataOutput.mm */,
+				946FD89D1CEE2F86006FC3DF /* DFResolutionUtil.h */,
+				946FD89E1CEE2F86006FC3DF /* DFResolutionUtil.m */,
+				946FD89F1CEE2F86006FC3DF /* DFStreamUploader.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		946FD8961CEE2F86006FC3DF /* filter */ = {
+			isa = PBXGroup;
+			children = (
+				946FD8971CEE2F86006FC3DF /* GPUImageBeautifyFilter.h */,
+				946FD8981CEE2F86006FC3DF /* GPUImageBeautifyFilter.m */,
+			);
+			path = filter;
+			sourceTree = "<group>";
+		};
+		94A03CC21CEE1AF300A80B0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94EAE3BD1CEE56D700BB7732 /* Foundation.framework */,
+				94EAE3BB1CEE56CD00BB7732 /* UIKit.framework */,
+				94A03CAC1CEE0AC000A80B0D /* libstdc++.tbd */,
+				94A03CAA1CEE0AB600A80B0D /* libz.tbd */,
+				94A03CA61CEE0A9300A80B0D /* CoreMedia.framework */,
+				94A03CA41CEE0A8B00A80B0D /* AVFoundation.framework */,
+				94A03CA21CEE0A8400A80B0D /* VideoToolbox.framework */,
+				94A03CA01CEE0A7C00A80B0D /* AudioToolbox.framework */,
+				94A03C9E1CEE0A7100A80B0D /* OpenGLES.framework */,
+				94A03C971CEE0A6A00A80B0D /* CoreGraphics.framework */,
+				D056D87625989C72C24064C5 /* libPods-DFStreamDisplayKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		94CCC9031CEDDFDC006EDDE5 = {
 			isa = PBXGroup;
 			children = (
+				94A03CC21CEE1AF300A80B0D /* Frameworks */,
 				94CCC90E1CEDDFDD006EDDE5 /* DFStreamDisplayKit */,
 				94CCC90D1CEDDFDD006EDDE5 /* Products */,
+				AE617D651392D54002E7A825 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +136,7 @@
 		94CCC90E1CEDDFDD006EDDE5 /* DFStreamDisplayKit */ = {
 			isa = PBXGroup;
 			children = (
+				946FD8951CEE2F86006FC3DF /* Classes */,
 				94CCC9121CEDDFDD006EDDE5 /* AppDelegate.h */,
 				94CCC9131CEDDFDD006EDDE5 /* AppDelegate.m */,
 				94CCC9151CEDDFDD006EDDE5 /* ViewController.h */,
@@ -79,6 +158,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		AE617D651392D54002E7A825 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F0BD6A593505CB8B1091205 /* Pods-DFStreamDisplayKit.debug.xcconfig */,
+				9B985C4DA5E103B45A13CA66 /* Pods-DFStreamDisplayKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94CCC9231CEDDFDD006EDDE5 /* Build configuration list for PBXNativeTarget "DFStreamDisplayKit" */;
 			buildPhases = (
+				CB29888E62426EDD830983A7 /* 📦 Check Pods Manifest.lock */,
 				94CCC9081CEDDFDD006EDDE5 /* Sources */,
 				94CCC9091CEDDFDD006EDDE5 /* Frameworks */,
 				94CCC90A1CEDDFDD006EDDE5 /* Resources */,
+				4F12D3333BF673ADFD687970 /* 📦 Embed Pods Frameworks */,
+				2205CE7DA240BCA471B83275 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +201,7 @@
 				TargetAttributes = {
 					94CCC90B1CEDDFDD006EDDE5 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3Y2M68H7RX;
 					};
 				};
 			};
@@ -144,14 +236,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2205CE7DA240BCA471B83275 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DFStreamDisplayKit/Pods-DFStreamDisplayKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F12D3333BF673ADFD687970 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DFStreamDisplayKit/Pods-DFStreamDisplayKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB29888E62426EDD830983A7 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		94CCC9081CEDDFDD006EDDE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				946FD8A11CEE2F86006FC3DF /* DFCameraUtil.m in Sources */,
 				94CCC9171CEDDFDD006EDDE5 /* ViewController.m in Sources */,
+				946FD8A01CEE2F86006FC3DF /* GPUImageBeautifyFilter.m in Sources */,
+				946FD8A21CEE2F86006FC3DF /* DFRawDataOutput.mm in Sources */,
 				94CCC9141CEDDFDD006EDDE5 /* AppDelegate.m in Sources */,
 				94CCC9111CEDDFDD006EDDE5 /* main.m in Sources */,
+				946FD8A31CEE2F86006FC3DF /* DFResolutionUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,23 +407,39 @@
 		};
 		94CCC9241CEDDFDD006EDDE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F0BD6A593505CB8B1091205 /* Pods-DFStreamDisplayKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = DFStreamDisplayKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = df.DFStreamDisplayKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanqi.basket1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "/Users/doumaaaaaaaa/Desktop/DFStreamDisplayKit/**";
 			};
 			name = Debug;
 		};
 		94CCC9251CEDDFDD006EDDE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B985C4DA5E103B45A13CA66 /* Pods-DFStreamDisplayKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = DFStreamDisplayKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = df.DFStreamDisplayKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanqi.basket1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "/Users/doumaaaaaaaa/Desktop/DFStreamDisplayKit/**";
 			};
 			name = Release;
 		};
@@ -302,6 +462,7 @@
 				94CCC9251CEDDFDD006EDDE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
